@@ -7,7 +7,7 @@ def data_get():
   data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=b5516418b8f8c4433b4a5b293ca3e124").json()
   weath_label1.config(text=data["weather"][0]["main"])
   desc_label1.config(text=data["weather"][0]["description"])
-  temp_label1.config(text=str(data["main"]["temp"]-273.15))
+  temp_label1.config(text=str(int(data["main"]["temp"]-273.15)))
   pres_label1.config(text=data["main"]["pressure"])
 
 
