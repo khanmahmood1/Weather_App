@@ -1,6 +1,6 @@
 # Weather_App 
 <br>
-It is my first programming it is mainly used Tkinter and API
+It is my first programming project, which is mainly used Tkinter and API
 
 1. **Tkinter**: Tkinter is a Python tool for making graphical interfaces.
 
